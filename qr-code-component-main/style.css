@@ -11,7 +11,8 @@ body {
 
 #container {
     background-color: hsl(0, 0%, 100%);
-    width: 300px;
+    width: 320px;
+    height: 499px;
     top: auto;
     border-radius: 4%;
 }
@@ -19,23 +20,23 @@ body {
     border-radius: 4%;
     display: block;
     margin: 15px auto;
-    width: 90%;
-}
-#container h1 {
-    margin: auto;
-    font-size: 20px;
-    width: 260px;
-    display: block;
-    color: hsl(218, 44%, 22%);
-    text-align: center;
-}
-#container p {
-    font-size: 15px;
-    color: hsl(220, 15%, 55%);
-    margin: 10px 20px 20px 20px;
-    text-align: center;
+    width: 288px;
+    height: 288px;
 }
 
+#texto {
+    font-size: 13px;
+    display: block;
+    margin: auto;
+    width: 288px;
+    text-align: center;
+}
+#container h1 {
+    color: hsl(218, 44%, 22%);
+}
+#container p {
+    color: hsl(220, 15%, 55%);
+}
 
 .attribution{ 
     font-size: 11px;
