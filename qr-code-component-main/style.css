@@ -10,26 +10,42 @@ main {
     align-items: center;
     height: 100vh;
 }
+
 #container {
     background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    max-width: 350px;
-    text-align: center;
-}
-#container img {
-    width: 288px;
-    border-radius: 15px;
+    width: 320px;
+    height: 499px;
 }
 
-#texto { 
-    border: 1px solid red;
+#content {
     width: 288px;
+    padding: 0px;
+    display: block;
+    margin: 16px 16px 40px 16px;
+    border: 1px solid red;
 }
-#container h1 {
+
+#content img {
+    border-radius: 15px;
+    height: 288px;
+}
+
+#texto {
+    text-align: center;
+    padding: 0px 16px;
+    margin-top: 16px;
+    height: 131px;
+    border: 1px solid red;
+}
+#texto h1 {
+    font-family: 'Outfit', sans-serif;
+    color: hsl(218, 44%, 22%);
     font-size: 22px;
 }
-#container p {
-    font-size: 15px;
+#texto p {
+    font-family: 'Outfit', sans-serif;
+    color: hsl(216, 15%, 48%);
+    font-size:15px;
 }
