@@ -13,31 +13,23 @@ main {
 
 #container {
     background-color: hsl(0, 0%, 100%);
-    border-radius: 15px;
+    border-radius: 20px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     width: 320px;
     height: 499px;
 }
 
-#content {
-    width: 288px;
-    padding: 0px;
-    display: block;
-    margin: 16px 16px 40px 16px;
-    border: 1px solid red;
-}
 
-#content img {
-    border-radius: 15px;
+#container img {
+    margin: 16px 16px 0px 16px;
+    border-radius: 10px;
     height: 288px;
 }
 
 #texto {
+    margin-top: 24px;
     text-align: center;
-    padding: 0px 16px;
-    margin-top: 16px;
-    height: 131px;
-    border: 1px solid red;
+    padding: 0px 32px 40px;
 }
 #texto h1 {
     font-family: 'Outfit', sans-serif;
